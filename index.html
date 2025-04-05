@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head dir="rtl">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="header-container">
+        <header id="header">
+            <div class="burgermenu-search">
+            <button id="open-btn" class="open-btn">&#9776;</button>
+            <i class="fa fa-bars bars"></i>
+            <input type="search" placeholder="جستجو">
+            <i class="fa fa-search search"></i>
+        </div>
+                <div class="userinfo-container">
+                    <span class="dark-light-text"></span>
+                    <i class="fa fa-sun-o change-theme" id="light-icon" style="display: none;"></i>
+                    <i class="fa fa-moon-o change-theme" id="dark-icon"></i>
+                    <i class="fa fa-bell bell"></i>
+                    <img src="img/download.png" class="user-img" alt="عکس کاربر">
+                    <div class="userinfo">
+                        <span class="user-name">محمد</span>
+                        <span class="user-type">ادمین</span>
+                    </div>
+
+                    <i class="fa fa-arrow-down arrow"></i>
+                    <div class="user-control">
+                        <a href="" class="a-info-box">
+                            <div class="div-info-box">
+                                <span class="user-main-info user-main-info"><i class="fa fa-user thriple-i"></i>اطلاعات کاربری</span>
+                            </div>
+                        </a>
+                        <a href="" class="a-info-box">
+                            <div class="div-info-box">
+                                <span class="user-change-pass user-main-info"><i class="fa fa-unlock-alt thriple-i"></i>تغییر رمز عبور</span>
+                            </div>
+                        </a>
+                        
+                        <a href="" class="a-info-box">
+                            <div class="div-info-box">
+                                <span class="user-logout user-main-info"><i class="fa fa-sign-out thriple-i logout"></i>خروج</span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+        </header>
+    </div>
+        <div class="contain-main-aside">
+
+            <main id="container">
+                <h1>داشبورد</h1>
+                <div class="cards-container">
+
+                    <div class="cards cards1">
+                        <div class="topof-card">
+                            <div class="cards-info">
+                                <span class="card-text">تعداد کل دانش آموزان</span>
+                                <span class="card-number">40,258</span>
+                            </div>
+                            <div class="cards-icon1"><i class="fa fa-users"></i></div>
+                        </div>
+                        <div class="bottomof-card">تعداد کل دانش آموزان این ماه<span class="cards-bottom-number"> 3.2 <i class="fa fa-line-chart chart"></i></span></div>
+                    </div>
+
+                    <div class="cards cards2">
+                        <div class="topof-card">
+                            <div class="cards-info">
+                                <span class="card-text">تعداد کل غایبین</span>
+                                <span class="card-number">102</span>
+                            </div>
+                            <div class="cards-icon2"><i class="fa fa-list-ul"></i></div>
+                        </div>
+                        <div class="bottomof-card">تعداد کل غایبین این ماه<span class="cards-bottom-number"> 1.2 <i class="fa fa-line-chart chart"></i></span></div>
+                    </div>
+
+
+
+                    <div class="cards cards3">
+                        <div class="topof-card">
+                            <div class="cards-info">
+                                <span class="card-text">شهریه های این ماه</span>
+                                <span class="card-number">42,980$</span>
+                            </div>
+                            <div class="cards-icon3"><i class="fa fa-line-chart"></i></div>
+                        </div>
+                        <div class="bottomof-card">مجموع کل شهریه این ماه <span class="cards-bottom-number"> 0.8 <i class="fa fa-line-chart chart"></i></span></div>
+                    </div>
+
+                    <div class="cards cards4">
+                        <div class="topof-card">
+                            <div class="cards-info">
+                                <span class="card-text">میانگین کل این ماه</span>
+                                <span class="card-number">40,258</span>
+                            </div>
+                            <div class="cards-icon4"><i class="fa fa-star"></i></div>
+                        </div>
+                        <div class="bottomof-card">میانگین کل دانش آموزان این ماه<span class="cards-bottom-number"> 4.8 <i class="fa fa-line-chart chart"></i></span></div>
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <div class="video"></div>
+                </div>
+
+
+
+
+                <div class="table-main">
+                    <div class="class-list">
+                        <h1>لیست دانش آموزان (کلاسی)</h1>
+                        <select name="" id="">
+                            <option value="دهم">دهم</option>
+                            <option value="یازدهم">یازدهم</option>
+                            <option value="دوازدهم">دوازدهم</option>
+                        </select>
+                    </div>
+                    <div class="table-container">
+                    <table id="myTable" >
+                        <thead>
+                                <tr>
+                                    <th>آمار</th>
+                                    <th>نام</th>
+                                    <th>نام خانوادگی</th>
+                                    <th>کلاس</th>
+                                    <th>عملیات</th>
+                                </tr>
+                            </thead>
+                        <tbody>
+                                <tr>
+                                    <td class="cell-row">1</td>
+                                    <td>سید علی</td>
+                                    <td>آقا سید هاشم</td>
+                                    <td>یازدهم شبکه</td>
+                                   <td class="watch"> <a href="#">دیدن گزارش</a></td> 
+                                </tr>
+                                <tr>
+                                    <td class="cell-row">2</td>
+                                    <td>محمدمحدی</td>
+                                    <td>آقامحمدی</td>
+                                    <td>دوازدهم شبکه</td>
+                                    <td class="watch">دیدن گزارش</td>
+                                </tr>
+                                <tr>
+                                    <td class="cell-row">3</td>
+                                    <td>محمدطاها</td>
+                                    <td>آقایی</td>
+                                    <td>دهم برق</td>
+                                    <td class="watch">دیدن گزارش</td>
+                                </tr>
+                                <tr>
+                                    <td class="cell-row">4</td>
+                                    <td>محمد جواد</td>
+                                    <td>ابراهیم زاده</td>
+                                    <td>دوازدهم الکترونیک</td>
+                                    <td class="watch">دیدن گزارش</td>
+                                </tr>
+                                <tr>
+                                    <td class="cell-row">5</td>
+                                    <td>سید عرفان</td>
+                                    <td>ابراهیمی</td>
+                                    <td>دهم الکترونیک</td>
+                                    <td class="watch">دیدن گزارش</td>
+                                </tr>
+                                <tr>
+                                    <td class="cell-row">6</td>
+                                    <td>ابوالفضل</td>
+                                    <td>ابراهیمی</td>
+                                    <td>دوازدهم حسابداری</td>
+                                    <td class="watch">دیدن گزارش</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td class="cell-row">7</td>
+                                    <td>محمدحسین</td>
+                                    <td>احمدی</td>
+                                    <td>دهم الکترونیک</td>
+                                    <td class="watch">دیدن گزارش</td>
+                                </tr>
+                            </tfoot>
+                          </table>
+                </div>
+            </div>
+                
+            </main>
+            
+            <aside> 
+                <div class="sidebar" id="sidebar">
+                    <button id="close-btn" class="close-btn">&times;</button>
+                    <a href="">
+                        <img src="img/left-logo.png" alt="لوگوی هنرستان" class="mob-logo">
+                    </a>
+                    <div class="menu-item">
+                        <div class="menu-title" onclick="toggleDropdown('dropdown1')">
+                            <i class="fa fa-home home"></i> <a>خانه</a> 
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-title-container">
+                            <div class="menu-title" onclick="toggleDropdown('dropdown2')">
+                                <i class="fa fa-clock-o clock"></i> <a>غیبت</a>
+                            </div>
+                            <i class="fa fa-arrow-down arrow2"></i>
+                        </div>
+                        <div id="dropdown2" class="dropdown">
+                            <a href="#">نمایش غایبین</a>
+                            <a href="#">ویرایش جدول غایبین</a>
+                            <a href="#">ثبت غیبت</a>
+                            <a href="#">لیست دانش آموزان</a>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-title-container">
+                            <div class="menu-title" onclick="toggleDropdown('dropdown3')">
+                                <i class="fa fa-users"></i> <a>دانش آموزان</a> 
+                            </div>
+                            <i class="fa fa-arrow-down arrow2"></i>
+                        </div>
+                        <div id="dropdown3" class="dropdown">
+                            <a href="#">نمایش درخواست های ویرایش</a>
+                            <a href="#">نمایش اطلاعات دانش آموزان</a>
+                            <a href="#">فعال سازی ویرایش دانش آموزان</a>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-title-container">
+                            <div class="menu-title" onclick="toggleDropdown('dropdown4')">
+                                <i class="fa fa-address-book"></i> <a class="">کارنامه</a>
+                            </div>
+                            <i class="fa fa-arrow-down arrow2"></i>
+                        </div>
+                        <div id="dropdown4" class="dropdown">
+                            <a href="#">ایجاد کارنامه</a>
+                            <a href="#">نمایش کارنامه</a>
+                            <a href="#">ثبت نمره</a>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-title" onclick="toggleDropdown('dropdown5')">
+                            <i class="fa fa-cog cog"></i> <a href="">تنظیمات</a>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-title" onclick="toggleDropdown('dropdown6')">
+                            <i class="fa fa-sign-out sign-out2"></i> <a href="">خروج</a> 
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="sidebar2" id="sidebar2">
+                    <a href="" class="sidebar2-logo-container">
+                        <img src="img/left-logo.png" alt="لوگوی هنرستان" class="lg-logo">
+                    </a>
+                    <div class="sidebar2-content-without-logo">
+                    <div class="menu-item">
+                        <div class="menu-title" onclick="toggleDropdown2('dropdownHome')">
+                            <i class="fa fa-home home"></i> <a class="menu-title-item" >خانه</a>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-title-container">
+                            <div class="menu-title" onclick="toggleDropdown2('dropdownAbsence')">
+                                <i class="fa fa-clock-o clock"></i> <a class="menu-title-item">غیبت</a>
+                            </div>
+                            <span class="contain-arrow2">
+                            <i class="fa fa-arrow-down arrow2"></i>
+                        </span>
+                        </div>
+                        <div id="dropdownAbsence" class="dropdown">
+                            <a href="#">نمایش غایبین</a>
+                            <a href="#">ویرایش جدول غایبین</a>
+                            <a href="#">ثبت غیبت</a>
+                            <a href="#">لیست دانش آموزان</a>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-title-container">
+                            <div class="menu-title" onclick="toggleDropdown2('dropdownStudents')">
+                                <i class="fa fa-users"></i> <a class="menu-title-item">دانش آموزان</a>
+                            </div>
+                            <span class="contain-arrow2">
+                            <i class="fa fa-arrow-down arrow2"></i>
+                        </span>
+                        </div>
+                        <div id="dropdownStudents" class="dropdown">
+                            <a href="#">نمایش درخواست های ویرایش</a>
+                            <a href="#">نمایش اطلاعات دانش آموزان</a>
+                            <a href="#">فعال سازی ویرایش دانش آموزان</a>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-title-container">
+                            <div class="menu-title" onclick="toggleDropdown2('dropdownReportCard')">
+                                <i class="fa fa-address-book"></i> <a class="menu-title-item">کارنامه</a>
+                            </div>
+                            <span class="contain-arrow2">
+                            <i class="fa fa-arrow-down arrow2"></i>
+                        </span>
+                        </div>
+                        <div id="dropdownReportCard" class="dropdown">
+                            <a href="#">ایجاد کارنامه</a>
+                            <a href="#">نمایش کارنامه</a>
+                            <a href="#">ثبت نمره</a>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-title" onclick="toggleDropdown2('dropdownSettings')">
+                            <i class="fa fa-cog cog"></i> <a class="menu-title-item">تنظیمات</a>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-title" onclick="toggleDropdown2('dropdownLogout')">
+                            <i class="fa fa-sign-out sign-out2"></i> <a class="menu-title-item">خروج</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </aside>   
+    </div>
+</div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

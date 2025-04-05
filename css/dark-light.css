@@ -1,0 +1,171 @@
+.light-mode{
+    background-color: white !important;
+    color: black !important;
+}
+
+.dark-mode{
+    background-color: rgb(28, 29, 44) !important; 
+    color: rgb(255, 255, 255) !important;
+}
+.dark-mode #header{
+    background-color:  rgb(30, 35, 56)!important; 
+    box-shadow: 0px 5px 10px rgb(20, 20, 43)!important;
+}
+.dark-mode input[type=search]{
+    background-color: #e4e5ed;
+}
+.dark-mode input::placeholder{
+    color: rgb(86, 86, 86);
+}
+.dark-mode input[type=search]:focus{
+    box-shadow: 0 0 10px #080b12;
+}
+.dark-mode .search{
+    color: rgb(99, 99, 99);
+}
+.dark-mode .search:hover{
+    color: rgb(70, 70, 70);
+}
+.dark-mode .bell , .dark-mode .arrow , .dark-mode .open-btn , .dark-mode .close-btn{
+    color: rgb(250, 250, 250);
+}
+.dark-mode .bell:hover , .dark-mode .arrow:hover ,.dark-mode .open-btn:hover , .dark-mode .close-btn:hover{
+    color: rgb(210, 210, 210);
+}
+.dark-mode div.user-control{
+    background-color: rgb(33, 38, 61)!important;
+    box-shadow: 0 0 12px #060826 ;
+}
+.dark-mode .userinfo{
+    background-color: rgb(30, 35, 56)!important;
+    box-shadow: 0 0 8px #050825;;
+}
+.dark-mode .user-name{
+    color: white!important;
+}
+.dark-mode .user-type  {
+    color: rgba(171, 171, 171, 0.687)!important;
+}
+.dark-mode span.user-main-info , .dark-mode main h1{
+    color: rgb(240, 240, 240);
+}
+.dark-mode span.user-main-info:hover{
+    color: rgb(244, 167, 0);
+}
+.dark-mode .dark-light-text{
+    background-color: rgb(33, 38, 61)!important;
+    color: rgb(210, 210, 210);
+    box-shadow:  0 0 8px #050825;
+}
+.dark-mode .bars{
+    color: rgb(240, 240, 240);}
+.dark-mode #sidebar{
+    background-color:rgb(37, 42, 69)!important;
+}
+.dark-mode .sidebar ul li a {
+    color: rgb(250, 250, 250)!important;
+}
+.dark-mode #sidebar2{
+    background-color:rgb(30, 35, 56)!important;
+}
+.dark-mode .sidebar2 ul li a {
+    color: rgb(250, 250, 250)!important;
+}
+.dark-mode .user-control{
+    box-shadow: 0 0 12px rgb(11, 16, 40);
+}
+.dark-mode a.change-theme{
+    background-color:rgb(40, 44, 69)!important;
+}
+.dark-mode #dark-icon{
+    color: white;
+}
+.dark-mode main h1{
+    color: white;
+}
+.dark-mode .video-container{
+    background-color: rgb(66, 66, 117);
+    box-shadow: 0 0 15px #060826 ;
+}
+.dark-mode .cards{
+    background-color: rgb(48, 48, 74);
+    color: #e4e5ed;
+    box-shadow: 0 0 12px #0f102a ;
+}
+.dark-mode .cards-info , .dark-mode .bottomof-card {
+    color: rgb(240, 240, 240)!important;
+}
+.dark-mode .cards-icon1 i{
+    color: rgb(115, 155, 255);
+    background-color: rgba(149, 209, 255, 0.4);
+}
+.dark-mode .cards-icon2 i{
+    color: rgb(178, 221, 58);
+    background-color: rgba(153, 205, 50, 0.3);
+}
+.dark-mode .cards-icon3 i{
+    color: rgb(198, 218, 217);
+    background-color: rgba(0, 151, 143, 0.4);
+}
+.dark-mode .cards-icon4 i{
+    color: rgb(177, 150, 0);
+    background-color: rgba(220, 120, 94, 0.4);
+}
+
+.dark-mode .class-list h1{
+    color: rgb(240, 240, 240)!important;
+}
+.dark-mode .class-list select{
+    background-color: rgb(28, 29, 44) !important; 
+    color: rgb(240, 240, 240)!important;
+}
+.dark-mode table{
+    background-color: rgb(28, 29, 44) !important; 
+    box-shadow: 0px 0px 6px rgb(33, 33, 33);
+}
+.dark-mode thead tr {
+    background-color:rgb(36, 42, 69)!important;
+}
+.dark-mode thead tr th{
+    color: rgb(56, 162, 228);
+}
+.dark-mode .watch a :hover ,.dark-mode td , .dark-mode td:hover{
+    color: rgb(240, 240, 240);
+}
+.dark-mode .watch a{
+    background-color: rgb(40, 80, 224);
+}
+.dark-mode tr:nth-child(odd){
+    background-color: rgb(58, 58, 90);
+}
+.dark-mode tr:nth-child(even){
+    background-color: rgb(50, 50, 81);
+}
+.dark-mode tr{
+    border-bottom: 1px solid rgb(37, 37, 37);
+}
+.dark-mode .menu-item i{
+    color: #fafafa;
+}
+.dark-mode .arrow2{
+    color: rgba(241, 241, 241, 0.834)!important;
+}
+.dark-mode .menu-item a{
+    color: rgb(255, 255, 255);
+}
+.dark-mode .sidebar2 .dropdown{
+    /* background-color: #1f253d; */
+    background-color: #292b43;
+}
+.dark-mode .sidebar2 .dropdown a:hover {
+    background-color: #292b43;
+ }
+ .dark-mode .sidebar .dropdown{
+    background-color: #1f253d;
+}
+.dark-mode .sidebar .dropdown a:hover {
+    background-color: #1f253d;
+ }
+.dark-mode .dropdown a:hover{
+    color: rgb(244, 167, 0);
+}
